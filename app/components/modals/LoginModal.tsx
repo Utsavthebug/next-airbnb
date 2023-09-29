@@ -38,6 +38,7 @@ const LoginModal = () => {
     const onSubmit :SubmitHandler<FieldValues> = (data) =>  {
         setIsLoading(true)
 
+
       signIn('credentials',{
         ...data,
         redirect:false
